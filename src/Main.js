@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+// import { Vehicle } from "./vehicle";
+var BatMobile_1 = require("./BatMobile");
+var MiniVan_1 = require("./MiniVan");
+var batMobile = new BatMobile_1.BatMobile(false, "T123", "23K");
+batMobile.getSpeed();
+console.log(batMobile.getSpeed());
+var MinIVan = new MiniVan_1.MiniVan(3, 4, "23e", "45K");
+console.log(MinIVan.getSpeed());

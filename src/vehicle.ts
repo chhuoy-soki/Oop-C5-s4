@@ -1,5 +1,3 @@
-import { SrvRecord } from "dns";
-
 export abstract class Vehicle {
     private plateID: string;
     private weight: string;
@@ -7,5 +5,5 @@ export abstract class Vehicle {
         this.plateID = plateID;
         this.weight = weight;
     }
-    setUpObject():void{}
+    getSpeed():void{}
 }
